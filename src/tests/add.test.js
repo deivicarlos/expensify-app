@@ -7,7 +7,7 @@ test('should add two numbers', () => {
 });
 
 
-test('should provide greeting', () => {
+test('should generate greeting from name', () => {
     const greeting = generateGreeting('Mike');
     expect(greeting).toBe('Hello Mike!');
 });
